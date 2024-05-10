@@ -8,4 +8,4 @@ common:
             multicast_policy: mcast
             name: vlan-
             name_prefix: true
-            vlan_list: "101-110"
+            vlan_list: "101-111"
