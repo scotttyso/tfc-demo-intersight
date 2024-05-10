@@ -1,0 +1,11 @@
+common:
+  policies:
+    vlan:
+      - description: may10
+        name: may10
+        vlans:
+          - auto_allow_on_uplinks: true
+            multicast_policy: mcast
+            name: vlan-
+            name_prefix: true
+            vlan_list: "101-110"
